@@ -98,7 +98,7 @@ def get_median(number_list):
     number_list_sorted = sorted(number_list)
     sort_size = len(number_list_sorted)
     if sort_size%2 == 1:
-        median = number_list_sorted[sort_size//2+1]
+        median = number_list_sorted[sort_size//2]
     else:
         median = (number_list_sorted[sort_size//2-1] + \
                 number_list_sorted[sort_size//2])/2
